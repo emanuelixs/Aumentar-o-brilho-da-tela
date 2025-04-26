@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+  font-family: cursive;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  height: 100dvh;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: cursive;
+  color: rgb(255, 0, 191);
+  text-align: center;
+}
+
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  gap: 40px;
+}
+
+button, a {
+  background-color: rgb(212, 255, 23);
+  font-size: x-large;
+  min-width: 40px;
+  cursor: pointer;
+  order: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
